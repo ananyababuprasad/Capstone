@@ -1,16 +1,12 @@
 # T2P-EEG: Time-to-Phase Conversion of Oscillatory EEG Signals for Seizure Detection and Prediction
 
-## ABSTRACT
+## Abstract
 
 The detection and prediction of seizures based on Electroencephalography (EEG) remain intrinsically difficult owing to the pronounced nonstationarity and nonlinear dynamics that govern neural activity. This work pioneers a novel paradigm by reformulating EEG recordings into phase-based reconstruction (PSR) which are inherently invariant to amplitude modulation and furnish a direct characterization of temporal synchronization and coordination among distributed neural assemblies. Extensive validation on the TUH EEG Seizure Corpus demonstrates that the proposed framework decisively surpasses prevailing state-of-the-art approaches, attaining a receiver operating characteristic area under the curve (ROC–AUC) of 0.9816 for seizure detection and 0.9855 for seizure prediction under a 10-minute forecasting horizon.
-
----
 
 ## Dataset
 
 This project uses the publicly available Temple University Seizure Corpus (TUS), a subset of the Temple University EEG Corpus (TUEG). 
-
----
 
 ## Methodology
 
@@ -38,7 +34,7 @@ This project uses the publicly available Temple University Seizure Corpus (TUS),
 
 * Extracting features such as Spectral Power from Hilbert transformed signal, and Line Length, Log Energy Entropy, Normalized Entropy from PSR.
 
-### 3. Results
+## Results
 
 XGBoost achieved an ROC-AUC of 0.9816 for seizure detection and 0.9855 for seizure prediction for a 10-minute prediction window.
 
