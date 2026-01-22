@@ -38,6 +38,6 @@ XGBoost achieved an ROC-AUC of 0.9816 for seizure detection and 0.9855 for seizu
 
 ## File Description
 
-* Processing.ipynb : code for pre-processing and dataset creation. Also includes visualizations of raw EEG signal, hilbert transformed signal, decomposed frequency bands of EEG, Spectral power plot.
-* Seizure_detection.ipynb : XGBoost models with different hyperparameters trained to detect seizures
-* Seizure_prediction.ipynb : XGBoost with different hyperparameters trained to predict seizures
+* Processing.ipynb: code for pre-processing and dataset creation. Also includes visualizations of raw EEG signal, hilbert transformed signal, decomposed frequency bands of EEG, Spectral power plot.
+* Seizure_detection.ipynb: code for XGBoost models with different hyperparameters trained to detect seizures
+* Seizure_prediction.ipynb: code for XGBoost models with different hyperparameters trained to predict seizures
